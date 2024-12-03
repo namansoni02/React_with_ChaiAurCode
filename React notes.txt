@@ -1,0 +1,17 @@
+//Generating the base code
+ -> using VITE:
+       - run: npm create vite@latest <name of project>
+-> using npx:(takes more time)
+       - run: npx create-react-app <name of project>
+
+//go to package.json and see all the scripts, like the app u made with npx , the script will have "start", when u will run, npm run start, it will host your app one some local port.
+
+
+//Create-react-app -->> Name all components with name starting with Capital alphabet. Can name components with .js or .jsx .
+
+//npm vite@latest -->> Name all components with name starting with Capital alphabet and make all components with .jsx and not with .js .
+
+//How Html is manipulated with JS without add script js in html ??
+// ANS: In create-react-app me script se inject ho jata hai add js wala part , jab hum build karte hai but in vite , it already link html with js.
+
+
